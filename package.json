@@ -1,0 +1,19 @@
+{
+  "name": "deepbook-arbitrage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@7kprotocol/sdk-ts": "^2.4.1",
+    "@mysten/sui": "^1.30.4",
+    "@pythnetwork/hermes-client": "^2.0.0",
+    "@types/node": "^22.15.29",
+    "decimal.js": "^10.5.0"
+  }
+}
