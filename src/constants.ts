@@ -2,13 +2,13 @@ import * as types from "./types";
 
 export const coins: types.CoinConfig[] = [
   {
-    symbol: "LBTC",
+    symbol: "DORI",
     address:
-      "0x3e8e9423d80e1774a7ca128fccd8bf5f1f7753be658c5e645929037f7c819040",
-    type: "0x3e8e9423d80e1774a7ca128fccd8bf5f1f7753be658c5e645929037f7c819040::lbtc::LBTC",
-    decimal: 8,
+      "0xc436a8ccc36e649e0fd8c7cec88ca89747b69ba5bdefb15be2f93ae1ae632800",
+    type: "0xc436a8ccc36e649e0fd8c7cec88ca89747b69ba5bdefb15be2f93ae1ae632800::dori::DORI",
+    decimal: 9,
     pythPriceId:
-      "0x8f257aab6e7698bb92b15511915e593d6f8eae914452f781874754b03d0c612b",
+      null,
   },
   {
     symbol: "USDC",
@@ -42,8 +42,8 @@ export const deepbookPools: types.DeepbookPoolConfig[] = [
   {
     poolName: "LBTC_USDC",
     poolId:
-      "0xd9474556884afc05b31272823a31c7d1818b4c0951b15a92f576163ecb432613",
-    baseCoinSymbol: "LBTC",
+      "0x2ea6691f0654bd9acadf4c26326fbcced6eaf0b5f64938c618a05ea64ca0d830",
+    baseCoinSymbol: "DORI",
     quoteCoinSymbol: "USDC",
     tickSize: "1",
     lotSize: "0.00001",
